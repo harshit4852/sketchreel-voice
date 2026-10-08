@@ -1,0 +1,12 @@
+Sketchreel voice model files
+
+kokoro-v1.0.onnx (split into kokoro-v1.0.onnx.part01 … part07) and voices-v1.0.bin are the
+Kokoro v1.0 ONNX model files published by thewh1teagle in the kokoro-onnx project
+(https://github.com/thewh1teagle/kokoro-onnx, release "model-files-v1.0"), unchanged.
+
+Kokoro-82M, the model they come from, is by hexgrad (https://huggingface.co/hexgrad/Kokoro-82M)
+and is released under the Apache License, Version 2.0 (see LICENSE).
+The kokoro-onnx project is released under the MIT License (see LICENSE-kokoro-onnx-MIT).
+
+These copies are kept here, split into parts under GitHub's file size guideline, so that
+Sketchreel's Claude voiceover can fetch them with git from github.com.
