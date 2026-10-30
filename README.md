@@ -21,11 +21,14 @@ These are the unchanged files from the kokoro-onnx project's `model-files-v1.0` 
 
 ## Pronunciation data
 
-Sketchreel turns Hindi voiceover lines into sounds with its own pronunciation engine (no espeak). Its two data files live here too,
-and the voice script fetches them with the model:
+Sketchreel turns voiceover lines into sounds with its own pronunciation engine (no espeak): Hindi lines and, since app v67, English
+ones. Its data files live here too, and the voice script fetches the ones a voiceover's language needs with the model (Hindi and British
+voices: the first two; American voices: the last two):
 
 | File | Bytes | SHA-256 |
 |---|---|---|
 | `g2p-en.json.xz` (British English dictionary, from misaki, Apache 2.0) | 1,197,484 | `7c902818a53d578a191fe34fa3515df4caadeeaf9f38c5e0265ed8963c550f7a` |
 | `g2p-lts.json.xz` (Sketchreel's English letter-to-sound table) | 194,748 | `967e18ef7d025ccf5f6ba1fd44ba06ec0114f7b9a5fcbcac918630e18e2dc71d` |
+| `g2p-en-us.json.xz` (American English dictionary, from misaki, Apache 2.0) | 1,125,056 | `30efb5767b0eaca99a9c96212fadc48afb87625398cb5f021eb8bf88d4d8a071` |
+| `g2p-lts-us.json.xz` (Sketchreel's American English letter-to-sound table) | 193,976 | `33cabab59eea1b8ba4308b9129cecd0f711e3b996fe764e56d00b5a7f38c9d0f` |
 

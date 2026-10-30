@@ -9,3 +9,5 @@ c4c8a0bb7c020c1b18d4de3f8c7eeab35c375e3f46a4820f0fc92ed0b7eb87c7  kokoro-v1.0.on
 b423fe1812e6952b88f91b513ec4dafffe17cce58ace508be1390cce12982170  kokoro-v1.0.onnx.part07
 7c902818a53d578a191fe34fa3515df4caadeeaf9f38c5e0265ed8963c550f7a  g2p-en.json.xz
 967e18ef7d025ccf5f6ba1fd44ba06ec0114f7b9a5fcbcac918630e18e2dc71d  g2p-lts.json.xz
+30efb5767b0eaca99a9c96212fadc48afb87625398cb5f021eb8bf88d4d8a071  g2p-en-us.json.xz
+33cabab59eea1b8ba4308b9129cecd0f711e3b996fe764e56d00b5a7f38c9d0f  g2p-lts-us.json.xz
