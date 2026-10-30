@@ -10,3 +10,13 @@ The kokoro-onnx project is released under the MIT License (see LICENSE-kokoro-on
 
 These copies are kept here, split into parts under GitHub's file size guideline, so that
 Sketchreel's Claude voiceover can fetch them with git from github.com.
+
+Pronunciation data for Sketchreel's own pronunciation engine
+
+g2p-en.json.xz is the British English pronunciation lexicon of misaki by hexgrad
+(https://github.com/hexgrad/misaki, data files gb_gold.json and gb_silver.json from the misaki 0.7.4 release),
+merged into one file (gold entries over silver, default pronunciations only) and xz-compressed. misaki is released
+under the Apache License, Version 2.0 (see LICENSE).
+
+g2p-lts.json.xz is Sketchreel's English letter-to-sound table, learned from that lexicon by Sketchreel
+(for names and words the lexicon doesn't have).

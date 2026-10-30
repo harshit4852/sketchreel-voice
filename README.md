@@ -18,3 +18,14 @@ sha256sum -c SHA256SUMS
 | `voices-v1.0.bin` | 28,214,398 | `bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d` |
 
 These are the unchanged files from the kokoro-onnx project's `model-files-v1.0` release.
+
+## Pronunciation data
+
+Sketchreel turns Hindi voiceover lines into sounds with its own pronunciation engine (no espeak). Its two data files live here too,
+and the voice script fetches them with the model:
+
+| File | Bytes | SHA-256 |
+|---|---|---|
+| `g2p-en.json.xz` (British English dictionary, from misaki, Apache 2.0) | 1,197,484 | `7c902818a53d578a191fe34fa3515df4caadeeaf9f38c5e0265ed8963c550f7a` |
+| `g2p-lts.json.xz` (Sketchreel's English letter-to-sound table) | 194,748 | `967e18ef7d025ccf5f6ba1fd44ba06ec0114f7b9a5fcbcac918630e18e2dc71d` |
+
