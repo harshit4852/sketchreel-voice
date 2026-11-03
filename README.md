@@ -33,13 +33,11 @@ voices: the first two; American voices: the last two):
 | `g2p-lts-us.json.xz` (Sketchreel's American English letter-to-sound table) | 193,976 | `33cabab59eea1b8ba4308b9129cecd0f711e3b996fe764e56d00b5a7f38c9d0f` |
 
 
-## A second copy: the release
+## Two ways in, both from this account
 
-The same files, unchanged, are also attached to this repository's release
-[`model-files-v1.0`](https://github.com/harshit4852/sketchreel-voice/releases/tag/model-files-v1.0): the model in one piece
-(`kokoro-v1.0.onnx`), `voices-v1.0.bin`, the four pronunciation data files and the font below, with `LICENSE`, `NOTICE` and
-`SHA256SUMS`. Sketchreel's voice script downloads from there when it can't clone this repository, so every file it needs comes from
-this account: it no longer falls back to another project's release.
+Sketchreel's voice script fetches these files with git (above) or, if that doesn't work where it runs, file by file over plain
+https from `raw.githubusercontent.com/harshit4852/sketchreel-voice/main/` (the seven model parts, then rebuilt and checked against
+`SHA256SUMS`). Either way every file comes from this repository: the script no longer falls back to another project's release.
 
 ## Font for the graphics preview
 
