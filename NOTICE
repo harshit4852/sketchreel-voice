@@ -24,3 +24,14 @@ g2p-lts.json.xz is Sketchreel's English letter-to-sound table, learned from that
 g2p-en-us.json.xz is misaki's American English lexicon (data files us_gold.json and us_silver.json from the same
 misaki 0.7.4 release), merged and compressed the same way, and g2p-lts-us.json.xz is Sketchreel's letter-to-sound
 table learned from it (Sketchreel's American voices, app v67).
+
+Font for the graphics preview
+
+fonts/caveat-latin-500-normal.woff2 and fonts/caveat-latin-700-normal.woff2 are the Caveat font by the Caveat Project
+Authors (https://github.com/googlefonts/caveat), as packaged by Fontsource (@fontsource/caveat 5.3.0, Latin subset),
+unchanged. Caveat is licensed under the SIL Open Font License, Version 1.1 (see fonts/OFL-Caveat.txt).
+
+Release copy
+
+The release "model-files-v1.0" of this repository carries the same files, unchanged: kokoro-v1.0.onnx in one piece,
+voices-v1.0.bin, the pronunciation data files and the Caveat font files, with LICENSE, NOTICE and SHA256SUMS.

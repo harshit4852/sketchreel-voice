@@ -11,3 +11,5 @@ b423fe1812e6952b88f91b513ec4dafffe17cce58ace508be1390cce12982170  kokoro-v1.0.on
 967e18ef7d025ccf5f6ba1fd44ba06ec0114f7b9a5fcbcac918630e18e2dc71d  g2p-lts.json.xz
 30efb5767b0eaca99a9c96212fadc48afb87625398cb5f021eb8bf88d4d8a071  g2p-en-us.json.xz
 33cabab59eea1b8ba4308b9129cecd0f711e3b996fe764e56d00b5a7f38c9d0f  g2p-lts-us.json.xz
+edbfb1a768829d4e85127cd327e59faaec9701cb043e96430938f1f66acf009f  fonts/caveat-latin-500-normal.woff2
+15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405  fonts/caveat-latin-700-normal.woff2

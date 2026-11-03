@@ -32,3 +32,22 @@ voices: the first two; American voices: the last two):
 | `g2p-en-us.json.xz` (American English dictionary, from misaki, Apache 2.0) | 1,125,056 | `30efb5767b0eaca99a9c96212fadc48afb87625398cb5f021eb8bf88d4d8a071` |
 | `g2p-lts-us.json.xz` (Sketchreel's American English letter-to-sound table) | 193,976 | `33cabab59eea1b8ba4308b9129cecd0f711e3b996fe764e56d00b5a7f38c9d0f` |
 
+
+## A second copy: the release
+
+The same files, unchanged, are also attached to this repository's release
+[`model-files-v1.0`](https://github.com/harshit4852/sketchreel-voice/releases/tag/model-files-v1.0): the model in one piece
+(`kokoro-v1.0.onnx`), `voices-v1.0.bin`, the four pronunciation data files and the font below, with `LICENSE`, `NOTICE` and
+`SHA256SUMS`. Sketchreel's voice script downloads from there when it can't clone this repository, so every file it needs comes from
+this account: it no longer falls back to another project's release.
+
+## Font for the graphics preview
+
+`fonts/caveat-latin-500-normal.woff2` and `fonts/caveat-latin-700-normal.woff2` are the Caveat font (Latin, weights 500 and 700),
+the handwriting Sketchreel draws its labels in. The preview script in Sketchreel's Claude file fetches them from here to show
+Claude's graphics as they'll look in the video. Caveat is under the SIL Open Font License 1.1 (`fonts/OFL-Caveat.txt`).
+
+| File | Bytes | SHA-256 |
+|---|---|---|
+| `fonts/caveat-latin-500-normal.woff2` | 50,904 | `edbfb1a768829d4e85127cd327e59faaec9701cb043e96430938f1f66acf009f` |
+| `fonts/caveat-latin-700-normal.woff2` | 51,020 | `15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405` |
